@@ -10,6 +10,8 @@ from webscrape_hotel import search_hotel
 
 app = Flask(__name__)
 
+
+
 nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
